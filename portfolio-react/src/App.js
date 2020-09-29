@@ -1,7 +1,7 @@
 import React from "react";
-import {BrowserRouter as Router, Route, Link }
- from 'react-router-dom';
- import "./App.css";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import "./App.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -28,10 +28,13 @@ class App extends React.Component {
   }
 
   render() {
-    return
+    return(
     <Router>
-
+      <Container fluid={true}>
+        <p>Hello World</p>
+      </Container>
     </Router>
+    );
   }
 }
 
