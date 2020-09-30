@@ -7,4 +7,4 @@ function ContactPage(props) {
     );
 }
 
-export default ContactPage
+export default ContactPage;

@@ -22,14 +22,13 @@ class App extends React.Component {
       ],
       home: {
         title: "Macs Page",
-        subTitle: "React Portfolio",
-        text: "checkout my projects below",
+        text: "Checkout my projects below"
       },
       about: {
-        title: "About Me",
+        title: "About Me"
       },
       contact: {
-        title: "Contact Me",
+        title: "Contact Me"
       },
     };
   }
@@ -38,31 +37,46 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>Mac Parthum</Navbar.Brand>
 
             <Navbar.Toggle aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
-            <Nav className="ml-auto">
-
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
-
+              <Nav className="ml-auto">
+                <Link className="nav-link" to="/">
+                  Home
+                </Link>
+                <Link className="nav-link" to="/about">
+                  About
+                </Link>
+                <Link className="nav-link" to="/contact">
+                  Contact
+                </Link>
               </Nav>
             </Navbar.Collapse>
-
           </Navbar>
-    
-            <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subtitle}  text={this.state.home.text} />} />
-            <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
-            <Route path="/contact" render={() => <ContactPage title={this.state.about.title} />} />
+
+          <Route
+            path="/"
+            exact
+            render={() => (
+              <HomePage
+                title={this.state.home.title}
+                subTitle={this.state.home.subtitle}
+                text={this.state.home.text}
+              />
+            )}
+          />
+          <Route
+            path="/about"
+            render={() => <AboutPage title={this.state.about.title} />}
+          />
+          <Route
+            path="/contact"
+            render={() => <ContactPage title={this.state.contact.title} />}
+          />
 
           <Footer />
-
-        
-
         </Container>
       </Router>
     );
