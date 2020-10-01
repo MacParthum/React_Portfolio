@@ -9,13 +9,17 @@ function NavTabs() {
 
   return (
     <ul className="nav nav-tabs">
-
+      <li className="nav-item">
+        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+          Home
+        </Link>
+      </li>
       <li className="nav-item">
         <Link
-          to="/"
-          className={location.pathname === "/" ? "nav-link active" : "nav-link"}
+          to="/about"
+          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
         >
-          Mac Parthum
+          About
         </Link>
       </li>
       <li className="nav-item">

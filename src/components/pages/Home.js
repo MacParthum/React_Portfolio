@@ -22,7 +22,7 @@
 
 import React from "react";
 
-function About() {
+function Home() {
   return (
     // Grid Container
     <div className="container w-100 full-page pb-5">
@@ -69,5 +69,5 @@ function About() {
   );
 }
 
-export default About;
+export default Home;
 
