@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    // Grid Container
+
     <div className="container w-100 full-page pb-5">
       <div className="row w-100">
         <div className="col-md-1"></div>
