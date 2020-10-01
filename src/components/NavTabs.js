@@ -34,14 +34,14 @@ function NavTabs() {
           Contact
         </Link>
       </li>
-      {/* <li className="nav-item">
+      <li className="nav-item">
         <Link
           to="/contact/learn"
           className={location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
         >
           Learn
         </Link>
-      </li> */}
+      </li>
     </ul>
   );
 }
