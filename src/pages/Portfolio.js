@@ -1,6 +1,6 @@
 import React from "react";
 
-import weatherDash from "../assets/img/weatherDash.png";
+import weatherDash from "./assets/img/weatherDash.png";
 
 function Portfolio() {
     console.log(weatherDash)
