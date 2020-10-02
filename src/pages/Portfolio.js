@@ -1,8 +1,9 @@
 import React from "react";
 
-import weatherDash from "../../assets/img/weatherDash.png";
+import weatherDash from "../assets/img/weatherDash.png";
 
 function Portfolio() {
+    console.log(weatherDash)
   return (
 
     <div className="container w-auto full-page pb-5">
