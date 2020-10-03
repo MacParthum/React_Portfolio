@@ -1,13 +1,17 @@
 import React from "react";
 
+import interlaced from "./assets/img/interlaced.png";
+
 function About() {
   return (
+    
+    <div  className={{ backgroundImage:`url(${interlaced})` }}>
     <div className="container w-100 full-page pb-5">
       <div className="row w-100">
         <div className="col-md-1"></div>
         <div className="col-md-8 mt-5 card">
           <div className="card-body">
-            <h1 className="text-bold">About Me</h1>
+            <h1 className="text-primary">About Me</h1>
 
             <img
               src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/67514684_2299926470122695_2668323770661339136_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=VxtoEIfjesUAX-E61AH&_nc_ht=scontent-ort2-2.xx&oh=7fcdc7775d365290d201479b97ccad7d&oe=5F9AB6E0"
@@ -70,6 +74,7 @@ function About() {
         </div>
         <div className="col-md-3"></div>
       </div>
+    </div>
     </div>
   );
 }

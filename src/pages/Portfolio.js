@@ -6,11 +6,11 @@ function Portfolio() {
     console.log(weatherDash)
   return (
 
-    <div className="container w-auto full-page pb-5">
+    <div className="container w-auto full-page pb-3">
       <div className="row w-auto">
-        <div className="col-md-2"></div>
-        <div className="col-md-9 mt-5 card">
-          <div className="card-body">
+        <div className="col-md-0"></div>
+        <div className="col-md-12 mt-5 card bg-light">
+          <div className="card-body bg-light">
             <h1 className="text-primary">Portfolio</h1>
             <br></br>
 

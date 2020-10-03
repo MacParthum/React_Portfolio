@@ -4,10 +4,10 @@ function About() {
   return (
     <div className="container w-100 full-page pb-5">
       <div className="row w-100">
-        <div className="col-md-1"></div>
-        <div className="col-md-8 mt-5 card">
-          <div className="card-body">
-            <h1 className="text-bold">About Me</h1>
+        <div className="col-md-1 "></div>
+        <div className="col-md-12 mt-5 card bg-dark">
+          <div className="card-body bg-dark text-white">
+            <h1 className="text-primary">About Me</h1>
 
             <img
               src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/67514684_2299926470122695_2668323770661339136_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=VxtoEIfjesUAX-E61AH&_nc_ht=scontent-ort2-2.xx&oh=7fcdc7775d365290d201479b97ccad7d&oe=5F9AB6E0"
@@ -19,21 +19,20 @@ function About() {
             />
 
             <p>
-              
               I first became fascinated with computers and video games playing
               Age of Empires. A classic pc game that lets you build a
               civilization and conquer the world with your armies. I knew I
-              wanted to learn all video games and how they are made. I stumbled
-              upon imvu 12 years ago. imvu is a chat messenger that allows people to pay a
-              small price to create items for sale on the messenger. imvu users
-              can buy anything you can make on 3ds max like houses, cars,
-              clothes for your avitar, avitars themselves. I was hooked on it
-              immediatly and I've been at it for over a decade. From my time on
-              imvu I learned a lot of photoshop and how to re-texture 3DS Max
-              models and sell them for a little profit.
+              wanted to learn about video games and how they are made. I
+              stumbled upon imvu 12 years ago and my life changed. imvu is a
+              chat messenger that allows people to pay a small price to create
+              items for sale on the messenger. imvu users can buy anything you
+              can make on 3ds max like houses, cars, clothes for your avitar,
+              avitars themselves. I was hooked on it immediatly and I've been at
+              it for over a decade. From my time on imvu I learned a lot of
+              photoshop and how to re-texture 3DS Max models and sell them for a
+              little profit.
             </p>
             <p>
-              
               Each imvu product has an HTML page and I learned the basics of how
               to display images and do a little coding. That little bit of
               coding lead me to lean away from wanting to make games to being
@@ -43,14 +42,15 @@ function About() {
               updating this page as I learn more.
             </p>
             <p>
-
-              <a href="https://www.linkedin.com/in/mac-parthum-3b758782/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/mac-parthum-3b758782/"
+                target="_blank"
+              >
                 Go to my LinkdIn Profile
               </a>
             </p>
 
             <p>
-
               <a href="https://github.com/MacParthum" target="_blank">
                 Go to my GitHub Profile
               </a>

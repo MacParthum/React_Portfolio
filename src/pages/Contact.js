@@ -2,12 +2,13 @@ import React from "react";
 
 function Contact() {
   return (
+    
     <div className="container w-auto full-page pb-5">
       <div className="row w-auto">
-        <div className="col-md-1"></div>
-        <div className="col-md-8 mt-5 card">
-          <div className="card-body">
-            <h1 className="text">Contact</h1>
+        <div className="col-md-0"></div>
+        <div className="col-md-12 mt-5 card bg-light">
+          <div className="card-body bg-light">
+            <h1 className="text-primary">Contact</h1>
             <form>
               <div className="form-group">
                 <label for="exampleFormControlTextarea1">Name</label>
